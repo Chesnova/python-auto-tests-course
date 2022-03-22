@@ -1,0 +1,18 @@
+By ID / driver.findElement(By.id(str)); Str is id of element
+By Name  / driver.findElement(By.name(str)); Str is name of element
+By class name  / driver. findElement (By.className(str)); Str is class value of element
+By CSS selector  / driver.findElement(By.cssSelector(str)); Str is cssSelector of element
+By link text /  driver.findElement(By.linkText(str)); Str is link text of element
+By partial link text  / driver.findElement(By.partialLinkText(str)); Str is partial text of element
+By tag name  / driver.findElement(By.tagName(str)); Str is tag name of element
+By XPath  / driver.findElement(By.xpath(xpath)); Str is xpath of element
+
+
+    By.ID – поиск по уникальному атрибуту id элемента;
+    By.CSS_SELECTOR – поиск элементов с помощью правил на основе CSS;
+    By.XPATH – поиск элементов с помощью языка запросов XPath;
+    By.NAME – поиск по атрибуту name элемента;
+    By.TAG_NAME – поиск по названию тега;
+    By.CLASS_NAME – поиск по атрибуту class элемента;
+    By.LINK_TEXT – поиск ссылки с указанным текстом. Текст ссылки должен быть точным совпадением;
+    By.PARTIAL_LINK_TEXT – поиск ссылки по частичному совпадению текста.
