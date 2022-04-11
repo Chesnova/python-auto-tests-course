@@ -16,7 +16,7 @@ try:
     EC.element_to_be_clickable((By.ID, "verify"))
     )
     button.click()
-    message = browser.find_element_by_id("verify_message")
+    message = browser.find_element(By.ID, "verify_message")
 
     assert "successful" in message.text
   

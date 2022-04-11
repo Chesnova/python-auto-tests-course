@@ -16,3 +16,9 @@ By XPath  / driver.findElement(By.xpath(xpath)); Str is xpath of element
     By.CLASS_NAME – поиск по атрибуту class элемента;
     By.LINK_TEXT – поиск ссылки с указанным текстом. Текст ссылки должен быть точным совпадением;
     By.PARTIAL_LINK_TEXT – поиск ссылки по частичному совпадению текста.
+
+browser.find_element(By.CSS_SELECTOR, "span#input_value.nowrap").text
+browser.find_element(By.CLASS_NAME, "form-control")
+browser.find_element(By.TAG_NAME, "button")
+browser.find_element(By.NAME, "firstname").send_keys("Lava")
+browser.find_element(By.ID, "robotCheckbox")
