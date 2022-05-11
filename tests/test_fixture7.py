@@ -15,4 +15,4 @@ def test_guest_should_see_login_link(browser, language):
     browser.get(link)
     browser.find_element_by_css_selector("#login_link")
 
-# pytest -s -v lessons/test_fixture7.py
+# pytest -s -v tests/test_fixture7.py

@@ -26,4 +26,4 @@ def test_exception2():
         browser.quit()
 
 
-# pytest lessons/test_3_3_9_pytest_raises.py
+# pytest tests/test_3_3_9_pytest_raises.py

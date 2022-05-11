@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+
 link = "http://selenium1py.pythonanywhere.com/"
 
 
@@ -9,7 +10,10 @@ link = "http://selenium1py.pythonanywhere.com/"
 def browser():
     print("\nstart browser for test..")
     browser = webdriver.Chrome()
-    return browser
+    yield browser
+    # этот код выполнится после завершения теста
+    print("\nquit browser..")
+    browser.quit()
 
 
 class TestMainPage1():
@@ -22,4 +26,4 @@ class TestMainPage1():
         browser.get(link)
         browser.find_element(By.CSS_SELECTOR, ".basket-mini .btn-group > a")
 
-# pytest -s -v lessons/test_fixture2.py
+# pytest -s -v tests/test_fixture3.py

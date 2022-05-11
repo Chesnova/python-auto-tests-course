@@ -67,5 +67,5 @@ class TestAbc(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-# python lessons/test_abc_project.py
-# pytest lessons/test_abc_project.py
+# python tests/test_abc_project.py
+# pytest tests/test_abc_project.py

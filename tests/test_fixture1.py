@@ -43,4 +43,4 @@ class TestMainPage2():
         self.browser.get(link)
         self.browser.find_element(By.CSS_SELECTOR, ".basket-mini .btn-group > a")
 
-# pytest -s lessons/test_fixture1.py
+# pytest -s tests/test_fixture1.py

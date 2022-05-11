@@ -12,4 +12,4 @@ class TestAbs(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
-# python lessons/test_abs_project.py
+# python tests/test_abs_project.py
