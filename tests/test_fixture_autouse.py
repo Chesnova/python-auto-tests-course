@@ -30,4 +30,4 @@ class TestMainPage1():
         browser.find_element(By.CSS_SELECTOR, ".basket-mini .btn-group > a")
 
 
-# pytest -s -v lessons/test_fixture_autouse.py
+# pytest -s -v tests/test_fixture_autouse.py

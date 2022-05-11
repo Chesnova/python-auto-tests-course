@@ -27,4 +27,4 @@ class TestMainPage1():
         browser.get(link)
         browser.find_element(By.CSS_SELECTOR, "button.favorite")
 
-#pytest -v lessons/test_fixture10.py
+#pytest -v tests/test_fixture10.py

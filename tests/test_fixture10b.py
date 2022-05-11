@@ -29,4 +29,4 @@ class TestMainPage1():
         browser.get(link)
         browser.find_element(By.CSS_SELECTOR, "input.btn.btn-default")
 
-# pytest -rx -v lessons/test_fixture10b.py
+# pytest -rx -v tests/test_fixture10b.py

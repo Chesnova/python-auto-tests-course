@@ -15,4 +15,4 @@ def test_skipped():
     assert False
 
 
-# pytest -rx -v lessons/test_xfail.py
+# pytest -rx -v tests/test_xfail.py

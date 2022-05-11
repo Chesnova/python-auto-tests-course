@@ -29,4 +29,4 @@ class TestMainPage1():
         browser.get(link)
         browser.find_element(By.CSS_SELECTOR, ".basket-mini .btn-group > a")
 
-#pytest -s -v -m "smoke and win10" lessons/test_fixture81.py
+#pytest -s -v -m "smoke and win10" tests/test_fixture81.py

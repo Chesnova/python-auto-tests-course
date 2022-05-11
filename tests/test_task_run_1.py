@@ -47,4 +47,4 @@ def test_guest_can_open_gadget_catalogue(browser):
     assert True
 
 
-# pytest -v -m "smoke and not beta_users" lessons/test_task_run_1.py
+# pytest -v -m "smoke and not beta_users" tests/test_task_run_1.py
