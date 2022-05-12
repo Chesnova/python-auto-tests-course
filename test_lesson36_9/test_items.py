@@ -9,5 +9,5 @@ def test_find_button_add_to_cart(browser):
     except:
         assert False, "Button add to cart is not found!"
 
-# pytest -s -v --user_language=fr test_lesson36_9/test_items.py
+# pytest -s -v --language=fr test_lesson36_9/test_items.py
 
